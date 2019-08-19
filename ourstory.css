@@ -1,0 +1,52 @@
+h1{
+  color:white;
+  background-color:#2F2FA2;
+}
+
+body{
+  background: white;
+  color: black;
+}
+
+img{
+  width: 15%;
+  height: auto;
+  float: center;
+}
+.menudropdown1{
+   height: 100px;
+  margin: 0px auto;
+}
+.menudropdown1 ul{
+  padding: 0px;
+}
+.menudropdown1 ul li{
+  float: left;
+  background-color: black;
+  color: white;
+  width: 253px;
+  height:50px;
+  line-height: 50px;
+  font-size: 15px;
+  text-align: center;
+  list-style: none;
+  opacity: .99;
+}
+.menudropdown1 ul li ul{
+  display:none;
+}
+.menudropdown1 ul li:hover > ul{
+  display: block;
+}
+.menudropdown1 ul li:hover{
+  background-color: #BC85A3;
+  opacity: 0.9;
+}
+.container {
+    position: relative;
+}
+.container img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
